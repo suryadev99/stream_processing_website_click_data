@@ -86,7 +86,7 @@ Use `make down` to spin down the containers.
 
 ## Contributing
 
-Contributions are welcome. If you would like to contribute you can help by opening a Github issue or putting up a PR.
+Contributions are welcome. If you would like to contribute you can help by opening a github issue or putting up a PR.
 
 ## References
 
