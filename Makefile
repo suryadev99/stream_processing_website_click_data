@@ -11,7 +11,7 @@ sleep:
 	sleep 20 
 
 ####################################################################################################################
-# Testing, auto formatting, type checks, & Lint checks
+## Testing, auto formatting, type checks, & Lint checks
 
 format:
 	docker exec datagen python -m black -S --line-length 79 .
