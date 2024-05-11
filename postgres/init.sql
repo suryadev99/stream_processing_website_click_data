@@ -5,6 +5,13 @@ CREATE SCHEMA commerce;
 SET
     search_path TO commerce;
 
+-- create a table named products
+CREATE TABLE products (
+    id int PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    description TEXT,
+    price REAL NOT NULL
+);
 
 -- create a users table
 CREATE TABLE users (
@@ -22,6 +29,7 @@ ALTER TABLE
 CREATE TABLE attributed_checkouts (
     checkout_id VARCHAR PRIMARY KEY,
     user_name VARCHAR,
+    click_id VARCHAR,
     product_id VARCHAR,
     payment_method VARCHAR,
     total_amount DECIMAL(5, 2),
@@ -29,5 +37,6 @@ CREATE TABLE attributed_checkouts (
     billing_address VARCHAR,
     user_agent VARCHAR,
     ip_address VARCHAR,
+    checkout_time TIMESTAMP,
     click_time TIMESTAMP
 );
