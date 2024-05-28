@@ -6,6 +6,7 @@ SET
     search_path TO commerce;
 
 -- create a table named products
+
 CREATE TABLE products (
     id int PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -14,6 +15,7 @@ CREATE TABLE products (
 );
 
 -- create a users table
+
 CREATE TABLE users (
     id int PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
