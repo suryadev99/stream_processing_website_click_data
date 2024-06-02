@@ -13,6 +13,8 @@ REQUIRED_JARS = [
 ]
 
 
+
+
 @dataclass(frozen=True)
 class StreamJobConfig:
     job_name: str = 'checkout-attribution-job'
