@@ -5,7 +5,6 @@ RUN pip install \
     faker==13.3.2 \
     confluent-kafka
 
-
 WORKDIR /opt/datagen
 
 COPY requirements.txt /opt/datagen/
