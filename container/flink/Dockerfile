@@ -1,6 +1,6 @@
 FROM flink:1.17.0
 
-
+RUN echo "updating packages"
 # install python3 and pip3
 RUN apt-get update -y && \
     apt-get install -y python3 python3-pip python3-dev && rm -rf /var/lib/apt/lists/*
